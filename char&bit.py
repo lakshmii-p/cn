@@ -61,3 +61,20 @@ print("Sum :", res)
 print("Checksum :", checksum)
 
 
+
+
+#hamming
+d = input("Enter 4 bits (e.g. 1010): ")
+
+d1, d2, d3, d4 = map(int, d)
+
+p1 = d1 ^ d2 ^ d4
+p2 = d1 ^ d3 ^ d4
+p3 = d2 ^ d3 ^ d4
+
+h = [p1, p2, d1, p3, d2, d3, d4]
+
+print("Hamming(7,4):", "".join(map(str, h)))
+
+
+
