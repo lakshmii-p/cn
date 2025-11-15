@@ -1,3 +1,5 @@
+
+#char-stuffing
 data = input("Enter data: ")
 sd = input("Start delimiter: ")
 ed = input("End delimiter: ")
@@ -15,7 +17,7 @@ print("Stuffed data:", res)
 
 
 
-#bit
+#bit stuffing
 bits = input("Enter bit string: ")
 
 count = 0
